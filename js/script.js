@@ -1,20 +1,10 @@
 
-let i = 1;
+//let i = 1;
 let input = document.getElementById("input"); 
-let output = document.getElementById("output");
+let imgs = document.getElementById("imgs");
     
 
 function Add(){
- 
-    output.innerHTML += "<br>" +i + ". " + input.value; 
-    i++; 
+  imgs.src = input.value 
 }
 
-function del(){
-    output.innerHTML = "";
-    i=1
-}
-
-function Add_emoji(parametr){
-    output.innerHTML += "" + parametr;
-}
